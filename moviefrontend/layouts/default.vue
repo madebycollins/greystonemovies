@@ -1,9 +1,16 @@
 <template>
   <div>
-    <Navbar/>
+    <!-- Navbar -->
+    <Navbar />
+    <!-- END Navbar -->
+
+    <!-- Page Container -->
     <b-container fluid>
+      <!-- Page content -->
       <nuxt />
+      <!-- END content -->
     </b-container>
+    <!-- END Page Container -->
   </div>
 </template>
 
