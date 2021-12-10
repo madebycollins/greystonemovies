@@ -5,7 +5,7 @@
     <!-- END Navbar -->
 
     <!-- Page Container -->
-    <b-container fluid>
+    <b-container class='page' fluid>
       <!-- Page content -->
       <nuxt />
       <!-- END content -->
@@ -21,5 +21,7 @@ export default {
 </script>
 
 <style scoped>
-
+.page {
+  margin: 30px;
+}
 </style>
